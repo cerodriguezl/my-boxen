@@ -53,10 +53,10 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
+  #include dnsmasq
   include git
-  include hub
-  include nginx
+  #include hub
+  #include nginx
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -64,8 +64,8 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
+  #include nodejs::v0_6
+  #include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions

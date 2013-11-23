@@ -59,3 +59,6 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "virtualbox",  "1.0.11"
+github "vagrant",     "3.0.7"
